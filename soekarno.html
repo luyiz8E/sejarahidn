@@ -6,38 +6,72 @@
 <title>Ir. Soekarno</title>
 <style>
   body {
-    font-family: Arial;
+    margin: 0;
+    font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    text-align: center;
   }
-  header, footer {
+
+  /* Header */
+  header {
     background-color: #333;
     color: white;
-    padding: 10px;
+    text-align: center;
+    padding: 20px 0;
   }
+
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+
+  /* Navigation bar */
+  nav {
+    margin-top: 10px;
+  }
+
   nav a {
+    display: inline-block;
+    background-color: orange;
     color: white;
-    margin: 10px;
     text-decoration: none;
-    background: orange;
-    padding: 5px 10px;
-    border-radius: 5px;
-  }
-  section {
-    margin: 20px;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  img {
-    width: 45%;
-    border-radius: 8px;
+    padding: 8px 16px;
     margin: 5px;
+    border-radius: 6px;
+    font-weight: bold;
   }
-  video {
-    width: 80%;
-    max-width: 600px;
+
+  nav a:hover {
+    background-color: darkorange;
+  }
+
+  /* Main content */
+  main {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 85%;
     border-radius: 10px;
+    text-align: center;
+  }
+
+  img {
+    width: 220px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  video {
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
   }
 </style>
 </head>
@@ -53,25 +87,26 @@
   </nav>
 </header>
 
-<section>
-  <h2>Ir. Soekarno</h2>
-  <p>Ir. Soekarno adalah Presiden pertama Republik Indonesia dan Proklamator Kemerdekaan. 
-     Ia dikenal sebagai orator ulung dan tokoh penting dalam perjuangan bangsa.</p>
+<main>
+  <img src="Presiden_Sukarno_(colored).jpg" alt="Ir. Soekarno">
+  <img src="1955s.jpg" alt="Soekarno Berpidato">
 
-  <img src="Presiden_Sukarno_(colored).jpg" alt="Soekarno">
-  <img src="1955s.jpg" alt="Soekarno">
+  <p><strong>Ir. Soekarno</strong> lahir di Surabaya pada 6 Juni 1901 dan wafat di Jakarta pada 21 Juni 1970. 
+  Beliau adalah <strong>Presiden pertama Indonesia</strong> dan <strong>Proklamator Kemerdekaan</strong> bersama Mohammad Hatta.</p>
 
-  <br><br>
+  <p>Sejak muda, Soekarno aktif memperjuangkan kemerdekaan melalui <strong>Partai Nasional Indonesia (PNI)</strong>. 
+  Ia mencetuskan <strong>Pancasila</strong> sebagai dasar negara dan dikenal dengan semangatnya yang kuat untuk mempersatukan bangsa.</p>
 
-  <!-- Video offline, kamu bisa ganti nama file-nya -->
-  <video width="320" height="240" controls>
+  <p>Pada <strong>17 Agustus 1945</strong>, Soekarno membacakan <strong>Teks Proklamasi Kemerdekaan</strong> Indonesia. 
+  Beliau dikenang sebagai <strong>Bapak Proklamator</strong> dan pahlawan besar bangsa Indonesia.</p>
+
+  <video controls>
     <source src="Pidato Bung Karno Hari Lahirnya Pancasila 1 Juni 1945 _ Sidang BPUPKI.mp4" type="video/mp4">
   </video>
-
-</section>
+</main>
 
 <footer>
-  <p>&copy; 2025 Tokoh Sejarah | Dibuat oleh Luyiz 8E</p>
+  <p>&copy; 2025 - Tokoh Nasional Indonesia</p>
 </footer>
 
 </body>
